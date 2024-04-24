@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 export default function SnapSection() {
   const [imageInfo, setImageInfo] = useState({
     websiteUrl:"",
-    imageUrl: "http://res.cloudinary.com/dawxhtums/image/upload/v1713969176/SnapAPI/vdepkkalhzo2b7vr07d5.jpg",
+    imageUrl: "",
     imageSize: "",
     imageDate: null,
   });
