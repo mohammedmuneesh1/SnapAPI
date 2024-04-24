@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        '1000': '100rem',
+        '100p': '100rem',
+      },
+      height: {
+        '128': '35rem',
       }
     },
   },

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-function MyNavbar() {
+import { Link } from 'react-router-dom';
+function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -23,29 +24,29 @@ function MyNavbar() {
 
       <div className={`menu w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
         <div className="text-md font-bold text-base font-medium lg:flex-grow">
-          <a href="#home" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-grey-700 mr-2">
+          <Link to="/" className="block mt-4 lg:inline-block lg:mt-0  px-4 py-2 rounded hover:text-gray-700 mr-2">
             Home
-          </a>
-          <a href="#home" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+          </Link>
+          <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:text-gray-700  mr-2">
             API
-          </a>
-          <a href="#home" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+          </Link>
+          <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:text-gray-700 mr-2">
             Pricing
-          </a>
-          <a href="#home" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+          </Link>
+          <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:text-gray-700  mr-2">
             FAQ
-          </a>
-          <a href="#home" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">
+          </Link>
+          <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:text-gray-700 mr-2">
             Contact
-          </a>
+          </Link>
         </div>
         <div className="flex">
-          <a href className="font-normal flex items-center mr-3 sm:mr-8  tracking-normal sm:tracking-wider">Login</a>
-          <a href="#home" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs sm:text-sm font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">SIGN UP</a>
+          <Link to="/" className="font-normal flex items-center mr-3 sm:mr-8  tracking-normal sm:tracking-wider transition duration-300 ease-in-out   hover:font-bold">Login</Link>
+          <Link to="/" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs sm:text-sm font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">SIGN UP</Link>
         </div>
       </div>
     </nav>
   );
 }
 
-export default MyNavbar;
+export default Header;
