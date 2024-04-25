@@ -88,14 +88,14 @@ export default function SnapSection() {
           data-aos-easing="linear"
           data-aos-once="true"
           data-aos-duration="1000"
-          className="max-w-[480px] w-full px-4 mx-auto"
+          className="max-w-[500px] w-full py-2  px-4 mx-auto mt-8"
         >
           <div className="relative">
             <input
               type="url"
               name="url"
               autoComplete="off"
-              className="w-full border h-12 shadow p-4 rounded-full outline-none bg-white "
+              className="w-full border h-12 shadow  p-4 rounded-full outline-none bg-white "
               placeholder="Enter Website URL"
             />
             <button type="submit">
