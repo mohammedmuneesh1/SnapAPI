@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
               data-aos="fade-right"
-              data-aos-delay="600"
+              data-aos-delay="400"
               data-aos-duration="800"
                 data-aos-once="true" 
               className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
@@ -49,7 +49,7 @@ export default function Hero() {
 
             <Link
               data-aos="fade-left"
-              data-aos-delay="600"
+              data-aos-delay="400"
               data-aos-duration="800"
               data-aos-once="true" 
               className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"

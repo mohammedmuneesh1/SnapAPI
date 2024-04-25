@@ -8,6 +8,9 @@ module.exports = {
       },
       height: {
         '128': '35rem',
+      },
+      minHeight: {
+        '145': '42rem',
       }
     },
   },
