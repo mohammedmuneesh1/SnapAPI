@@ -215,7 +215,7 @@ export default function SnapSection() {
                 </h1>
 
                 <div className=" max-w-full">
-                  <h3 className="font-semibold text-xs sm:text-base  sm:pb-1  whitespace-nowrap">
+                  <h3 className="font-semibold text-xs sm:text-base  sm:pb-1 ">
                     Screenshot link:
                     <a
                       href={imageInfo.imageUrl}

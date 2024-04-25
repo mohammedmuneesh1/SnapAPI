@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer data-aos="fade-zoom-in" dat-aos-once="true"  className=" mx-auto w-full relative text-center bg-blue-600 text-white">
+    <footer data-aos="fade-zoom-in" dat-aos-once="true" data-aos-duration="200"  className=" mx-auto w-full relative text-center bg-blue-600 text-white">
     <div className="px-6 py-8 md:py-14 xl:pt-20 xl:pb-12">
         <h2 className="font-bold text-3xl xl:text-4xl leading-snug">
         Ready to capture your website's snapshot? <br/>Dive into our community today
