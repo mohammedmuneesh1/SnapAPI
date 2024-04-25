@@ -1,4 +1,3 @@
-import axios from "axios";
 import FileSaver from "file-saver";
 import React, { useState } from "react";
 import Swal from "sweetalert2";
